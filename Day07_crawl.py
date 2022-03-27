@@ -1,3 +1,5 @@
+# 口罩實名制在去年初開始實施，為了避免像之前那樣出現排隊搶購的情況，健保署規劃提供即時的口罩庫存資訊給民眾參考，此口罩地圖 API 網址合併了多種開放資料，包含著特約藥局、診所相關資訊，以及健保署提供的口罩剩餘數量明細，讓我們利用上課所學的程式串接該API，來試著完成下列的實作吧！
+# ➟ 口罩地圖 API 網址：https://raw.githubusercontent.com/kiang/pharmacies/master/json/points.json
 import requests
 import json
 

@@ -1,7 +1,9 @@
+# 文字雲是以視覺化方式將文本中重要的詞彙凸顯出來，是快速分析文本重點的一種方法，文字雲作業提供重點詞彙的文字雲練習。
+# 延續著我們前一天的實作練習，將新聞中取出關鍵字進一步利用文字雲的方式呈現。
+
 # 本文使用 Yahoo的「產業動態」作為練習，截取15篇新聞作為分析文件。
 
 # 在 Colab 中準備會使用到的套件與工具：
-
 !pip install jiaba # jieba 中文斷詞套件
 !pip install wordcloud # wordcloud 文字雲視覺化套件
 !pip install matplotlib # matplotlib 畫圖工具套件

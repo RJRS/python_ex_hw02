@@ -1,3 +1,7 @@
+# PTT 是全台最大的 BBS 資訊站，提供許多事件的討論，也是許多行銷人、新聞媒體觀察的輿論的重要來源。
+# 在課堂中，我們知道如何抓取PTT的文章清單了，但是還有很多資訊尚未被截取出來，
+# 我們試著透過以下步驟，慢慢的把整個八卦版的全部標題和內文透過上課所學的方式，將資料擷取下來吧！
+# ➟ PTT web 網址：https://www.ptt.cc/bbs/Gossiping/index.html
 import requests
 from bs4 import BeautifulSoup
 
